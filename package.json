@@ -1,0 +1,11 @@
+{
+  "name": "fizz-buzz-tdd-node",
+  "version": "1.0.0",
+  "description": "Fizz buzz code test with TDD approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
