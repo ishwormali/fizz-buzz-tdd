@@ -4,8 +4,12 @@
   "description": "Fizz buzz code test with TDD approach",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
