@@ -1,3 +1,7 @@
+/**
+ * Finds fizz buzz strings.
+ * @returns FIzz buzz string
+ */
 const findFizzBuzz = () => {
   let result = [];
   for (let i = 1; i <= 100; i++) {
