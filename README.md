@@ -29,3 +29,4 @@ npm run test
 14) Fixed the tests to use the callable function returned by findFizzBuzz and supply 100 as the n. The tests are now green. The commit hash is 0bb0d789a06ff3c558db7ed3668fdd2b35da4ac8
 15) Added new test “should return 120 fizz buzz values pattern when 120 is supplied as the required number of values”to see if the n is accepted beyond 100. All tests are green at this point. The commit hash is 51316c9f8792b07162f0738cd25afc9c452bf4b3
 16) Refactor the function name from “findFizzBuzz” to a more suitable name “getFizzBuzzGenerator”. The tests are all passing. The commit hash is 5fe94b9761544e14ab13d965644fa286ca5d05a7.
+17) Write a test to demonstrate how same fizz buzz parameters can be utilized to call multiple times for different number of fizz buzz patterns. The commit hsh is 6c0a5bdb9f832efadcaac1aa3252d6457eaa9cde
