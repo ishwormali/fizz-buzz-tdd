@@ -4,9 +4,9 @@
  */
 const FIZZ = "Fizz";
 const BUZZ = "Buzz";
-const findFizzBuzz = (fizz, buzz) => {
+const findFizzBuzz = (fizz, buzz) => (n) => {
   let result = [];
-  for (let i = 1; i <= 100; i++) {
+  for (let i = 1; i <= n; i++) {
     const isFizz = i % fizz === 0;
     const isBuzz = i % buzz === 0;
     const fizzBuzzStr = (isFizz ? FIZZ : "") + (isBuzz ? BUZZ : "") || i;
