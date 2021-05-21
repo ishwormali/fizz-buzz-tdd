@@ -1,5 +1,7 @@
 # Fizz Buzz solution
 
+This project is to demonstrate the Fizz Buzz solution using Test Driven Development(TDD) approach. It uses Javascript as the programming language and jest as the testing tool.
+
 ## Run the test
 
 ```
@@ -8,6 +10,8 @@ npm run test
 ```
 
 # Fizz Buzz solution TDD approach
+
+The following shows how the code was developed with TDD approach with multiple tests and refactoring.
 
 
 1) Created a test file and added a simple test “should return fizz buzz solution” for utility function to test the output with the Fizz buzz pattern. The test is failing at this point
