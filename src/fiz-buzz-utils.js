@@ -4,11 +4,11 @@
  */
 const FIZZ = "Fizz";
 const BUZZ = "Buzz";
-const findFizzBuzz = () => {
+const findFizzBuzz = (fizz, buzz) => {
   let result = [];
   for (let i = 1; i <= 100; i++) {
-    const isFizz = i % 3 === 0;
-    const isBuzz = i % 5 === 0;
+    const isFizz = i % fizz === 0;
+    const isBuzz = i % buzz === 0;
     const fizzBuzzStr = (isFizz ? FIZZ : "") + (isBuzz ? BUZZ : "") || i;
     result.push(fizzBuzzStr);
   }
