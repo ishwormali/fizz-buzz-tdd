@@ -4,7 +4,7 @@
  */
 const FIZZ = "Fizz";
 const BUZZ = "Buzz";
-const findFizzBuzz = (fizz, buzz) => (n) => {
+const getFizzBuzzGenerator = (fizz, buzz) => (n) => {
   let result = [];
   for (let i = 1; i <= n; i++) {
     const isFizz = i % fizz === 0;
@@ -16,4 +16,4 @@ const findFizzBuzz = (fizz, buzz) => (n) => {
   return result.join(",");
 };
 
-module.exports = findFizzBuzz;
+module.exports = getFizzBuzzGenerator;
