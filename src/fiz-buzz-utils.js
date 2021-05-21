@@ -9,15 +9,8 @@ const findFizzBuzz = () => {
   for (let i = 1; i <= 100; i++) {
     const isFizz = i % 3 === 0;
     const isBuzz = i % 5 === 0;
-    if (isFizz && isBuzz) {
-      result.push(`${FIZZ}${BUZZ}`);
-    } else if (isFizz) {
-      result.push(FIZZ);
-    } else if (isBuzz) {
-      result.push(BUZZ);
-    } else {
-      result.push(i);
-    }
+    const fizzBuzzStr = (isFizz ? FIZZ : "") + (isBuzz ? BUZZ : "") || i;
+    result.push(fizzBuzzStr);
   }
 
   return result.join(",");
